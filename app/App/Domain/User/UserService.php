@@ -52,6 +52,7 @@ class UserService extends BaseService
                         'message/failure', $this->message
                                                 ->get('MESSAGE_EMAIL_OR_USERNAME_EXISTS')
                 );
+                return false;
             }
 
             // validate sanitized data
