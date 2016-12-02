@@ -1,5 +1,5 @@
 # Registration / login system
-----------------------
+
 Please note this is not a production ready project. It was created for learning purposes only.
 
 #### MySQL code
@@ -12,5 +12,5 @@ CREATE TABLE `users` (
   `password` varchar(100) NOT NULL,
   `joined` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `group` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+)
 ```
