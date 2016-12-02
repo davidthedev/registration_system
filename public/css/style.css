@@ -1,0 +1,406 @@
+html, body {
+    font-family: Arial;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.site-wrap {
+    margin-bottom: -50px;
+    min-height: 100%;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*******************************************************************************/
+/* --------- Clearfix
+/*******************************************************************************/
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+}
+
+.cf:after {
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/*******************************************************************************/
+/* --------- Top Nav
+/*******************************************************************************/
+.top-logo {
+    display: inline;
+    float: left;
+    margin-top: 25px;
+}
+
+nav.top-nav {
+    background-color: #4ABDAC;
+}
+
+nav.top-nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.top-nav ul li {
+    display: inline;
+}
+
+nav.top-nav ul li a {
+    display: block;
+    float: right;
+    font-size: 15px;
+    color: #000000;
+    padding: 30px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav.top-nav ul li a:hover {
+    background-color: #FFFFFF;
+}
+
+/*******************************************************************************/
+/* --------- Navigation
+/*******************************************************************************/
+nav {
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #000000;
+    display: block;
+    float: left;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/*******************************************************************************/
+/* --------- Body
+/*******************************************************************************/
+.main {
+    /*background-color: #E0E0E0;*/
+    border: 2px #E0E0E0 solid;
+    padding: 50px;
+    /*width: 500px;*/
+    word-wrap: break-word;
+}
+
+.main ul {
+    margin: 0;
+}
+
+
+
+.main ul a {
+    border-bottom: 1px solid #E0E0E0;
+    color: #000000;
+    display: block;
+    padding: 10px 0 10px 30px;
+}
+
+.main ul a:hover {
+    background-color: #f2f2f2;
+}
+img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+/*******************************************************************************/
+/* --------- General Styles
+/*******************************************************************************/
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+article {
+    border-top: 1px solid #e0d9d9;
+    border-bottom: 1px solid #e0d9d9;
+    margin-top: -1px;
+    padding: 10px 0 10px 0;
+}
+
+article p, article footer {
+    font-size: 13px;
+}
+
+article cite {
+    display: block;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+article .image-column, article .meta-column {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+article .image-column {
+    margin-right: 30px;
+    width: 200px;
+}
+
+article .meta-column {
+    width: 300px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+
+.buttons {
+    margin: 20px 0 10px 0;
+}
+
+article a {
+    /*display: block;*/
+    color: #666666;
+    padding: 20px 0 20px 0;
+}
+
+article img {
+    width: 100%;
+}
+
+article:hover {
+    background-color: #fafafa
+}
+
+article h3 {
+    color: #000;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+h5 {
+    margin: 0;
+}
+
+.main ul a {
+    color: #555555;
+}
+
+/*******************************************************************************/
+/* --------- Forms
+/*******************************************************************************/
+.form-style, .form-style2, .form-style-fullwidth {
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+.form-style-fullwidth {
+    width: 100%;
+}
+
+.form-style {
+    width: 300px;
+}
+
+.form-style2 {
+    width: 600px;
+}
+
+.input-style {
+    font-size: 16px;
+    height: 34px;
+    padding: 10px;
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+.remember-forgot {
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}
+
+textarea {
+    height: 300px !important;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input, textarea, button {
+    font-family: Arial;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0px 5px 0;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ---------------------------->>> Buttons <<<-----------------------------*/
+.btn {
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 10px 16px;
+}
+
+.btn-md {
+    font-size: 16px;
+    padding: 6px 16px;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 2px 16px;
+}
+
+.btn-main {
+    background-color: #286090;
+}
+
+.btn-success {
+    background-color: #449D44;
+}
+
+.btn-warning {
+    background-color: #ffbb00;
+}
+
+.btn-danger {
+    background-color: #d30a0a;
+}
+
+#image-thumb {
+
+}
+
+.form-style2 img {
+    max-width: 100%;
+}
+
+.thumb {
+    height: 75px;
+    margin: 10px 0 0 10px;
+}
+
+/* ---------------------------->>> Messages <<<-----------------------------*/
+
+.message {
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.failure {
+    color: #c72100;
+    background-color: #FFCCCC;
+}
+
+.success {
+    color: #77B259;
+    background-color: #D4EFCC;
+}
+
+/*******************************************************************************/
+/* --------- footer
+/*******************************************************************************/
+
+#footer {
+    background-color: #4ABDAC;
+    height: 50px;
+    padding: 30px;
+}
+
+/*******************************************************************************/
+/* --------- Media Queries
+/*******************************************************************************/
+@media screen and (min-width: 320px) {
+    .container {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .container {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
